@@ -1,0 +1,28 @@
+
+var one = 'Try Again'
+var two = 'Maybe'
+var three = 'Ask again later'
+var four = 'Looking likely'
+var five = 'Absolutely'
+
+var rand = Math.floor(Math.random() * 6);
+console.log(rand)
+
+if (rand == 1 ) {
+  greeting = one;
+} 
+
+else if (rand == 2 ) {
+  greeting = two;
+} 
+
+else if (rand == 3 ) {
+  greeting = three;
+} 
+
+else  if (rand == 4) {
+  greeting = four;
+} 
+
+else { greeting = five }
+console.log(greeting)
